@@ -3,6 +3,10 @@ A repository for every scripts that I use
 
 
 # GRLoraTrainer
+Using Kohya SS scripts (SD3 Branch), these scripts train a lora with the most minimal of information from the user. 
+
+You will need to edit the paths to fit your requirements.
+
 Launch using loramenu.py
 
 Option 1 creates the dataset and captions for your images
