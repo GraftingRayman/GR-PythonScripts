@@ -22,3 +22,6 @@ This moves all video files in a folder into series folders
 
 ## GRTrends
 This script downloads the top 20 search trends for a given region
+
+## GRMenu
+This creates a menu of python and batch files in a folder to run
