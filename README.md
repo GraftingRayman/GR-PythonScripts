@@ -17,7 +17,7 @@ Option 3 resumes training a lora for flux
 
 Option 4 merges two loras together to create a new one
 
-Edit the following in both the resume.py and trainlora.py
+### Edit the following in both the resume.py and trainlora.py
 
     # Define fixed paths
     repo_path = "H:\\sd-scripts" #this points to the kohya ss scripts folder
