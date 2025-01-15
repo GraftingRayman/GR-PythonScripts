@@ -27,7 +27,7 @@ Option 4 merges two loras together to create a new one
     clip_model_path = "E:\\models\\clip_l.safetensors" # the clip l
     t5_model_path = "E:\\models\\t5xxl_fp16.safetensors" # the clip text encoder
 
-### Default settings:
+### Default settings, edit --sample_prompts=e:\\models\\sample_prompts.txt" to point to the right place:
 
         f"--pretrained_model_name_or_path={base_model_path}",
         f"--ae={ae_path}",
