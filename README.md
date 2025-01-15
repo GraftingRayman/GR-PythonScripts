@@ -1,5 +1,5 @@
 # GR-PythonScripts
-A repository for every scripts that I use
+A repository for scripts that I use
 
 
 ## GRLoraTrainer
