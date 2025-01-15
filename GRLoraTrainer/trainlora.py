@@ -5,6 +5,23 @@ import re
 from datetime import datetime
 import threading
 
+def get_user_input_with_timeout(prompt, default, timeout):
+    result = [default]  # Use a list to allow modification within the inner function
+
+    def ask():
+        try:
+            user_input = input(prompt).strip()
+            if user_input.isdigit() and int(user_input) > 0:
+                result[0] = int(user_input)
+        except ValueError:
+            pass
+
+    thread = threading.Thread(target=ask)
+    thread.daemon = True
+    thread.start()
+    thread.join(timeout)
+    return result[0]
+
 def main():
     print("Welcome to Flux1 Training Automation")
 
