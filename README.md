@@ -25,3 +25,6 @@ This script downloads the top 20 search trends for a given region
 
 ## GRMenu
 This creates a menu of python and batch files in a folder to run
+
+## GRComfyDiff
+This lets you check whats new on ComfyUI Manager
