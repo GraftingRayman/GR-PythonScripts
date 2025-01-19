@@ -144,7 +144,7 @@ def main():
         "--fp8_base",
         "--highvram",
         "--max_train_epochs=16",
-        "--save_every_n_epochs=4",
+        "--save_every_n_epochs=1",
         "--cache_latents_to_disk",
         "--sdpa",
         "--persistent_data_loader_workers",
