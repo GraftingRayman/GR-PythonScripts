@@ -1,0 +1,4037 @@
+
+================================================================================
+COMPREHENSIVE MODEL ANALYZER
+Showing ALL keys without truncation
+================================================================================
+================================================================================
+MODEL ANALYSIS: zimagelora.safetensors
+Full path: zimagelora.safetensors
+================================================================================
+
+Total keys: 450
+Total parameters: 92,160,150
+
+================================================================================
+FIRST 100 KEYS (use --detailed for all 450 keys)
+================================================================================
+   1. lora_unet_layers_0_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+   2. lora_unet_layers_0_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+   3. lora_unet_layers_0_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+   4. lora_unet_layers_0_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   5. lora_unet_layers_0_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   6. lora_unet_layers_0_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   7. lora_unet_layers_0_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+   8. lora_unet_layers_0_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+   9. lora_unet_layers_0_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  10. lora_unet_layers_0_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  11. lora_unet_layers_0_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  12. lora_unet_layers_0_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  13. lora_unet_layers_0_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  14. lora_unet_layers_0_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  15. lora_unet_layers_0_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  16. lora_unet_layers_10_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  17. lora_unet_layers_10_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  18. lora_unet_layers_10_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  19. lora_unet_layers_10_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  20. lora_unet_layers_10_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  21. lora_unet_layers_10_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  22. lora_unet_layers_10_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  23. lora_unet_layers_10_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  24. lora_unet_layers_10_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  25. lora_unet_layers_10_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  26. lora_unet_layers_10_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  27. lora_unet_layers_10_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  28. lora_unet_layers_10_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  29. lora_unet_layers_10_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  30. lora_unet_layers_10_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  31. lora_unet_layers_11_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  32. lora_unet_layers_11_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  33. lora_unet_layers_11_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  34. lora_unet_layers_11_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  35. lora_unet_layers_11_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  36. lora_unet_layers_11_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  37. lora_unet_layers_11_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  38. lora_unet_layers_11_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  39. lora_unet_layers_11_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  40. lora_unet_layers_11_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  41. lora_unet_layers_11_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  42. lora_unet_layers_11_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  43. lora_unet_layers_11_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  44. lora_unet_layers_11_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  45. lora_unet_layers_11_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  46. lora_unet_layers_12_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  47. lora_unet_layers_12_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  48. lora_unet_layers_12_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  49. lora_unet_layers_12_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  50. lora_unet_layers_12_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  51. lora_unet_layers_12_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  52. lora_unet_layers_12_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  53. lora_unet_layers_12_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  54. lora_unet_layers_12_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  55. lora_unet_layers_12_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  56. lora_unet_layers_12_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  57. lora_unet_layers_12_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  58. lora_unet_layers_12_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  59. lora_unet_layers_12_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  60. lora_unet_layers_12_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  61. lora_unet_layers_13_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  62. lora_unet_layers_13_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  63. lora_unet_layers_13_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  64. lora_unet_layers_13_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  65. lora_unet_layers_13_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  66. lora_unet_layers_13_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  67. lora_unet_layers_13_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  68. lora_unet_layers_13_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  69. lora_unet_layers_13_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  70. lora_unet_layers_13_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  71. lora_unet_layers_13_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  72. lora_unet_layers_13_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  73. lora_unet_layers_13_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  74. lora_unet_layers_13_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  75. lora_unet_layers_13_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  76. lora_unet_layers_14_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  77. lora_unet_layers_14_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  78. lora_unet_layers_14_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  79. lora_unet_layers_14_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  80. lora_unet_layers_14_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  81. lora_unet_layers_14_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  82. lora_unet_layers_14_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  83. lora_unet_layers_14_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  84. lora_unet_layers_14_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  85. lora_unet_layers_14_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+  86. lora_unet_layers_14_feed_forward_w2.lora_down.weight: torch.Size([32, 10240]) (torch.bfloat16)
+  87. lora_unet_layers_14_feed_forward_w2.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  88. lora_unet_layers_14_feed_forward_w3.alpha: torch.Size([]) (torch.bfloat16)
+  89. lora_unet_layers_14_feed_forward_w3.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  90. lora_unet_layers_14_feed_forward_w3.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+  91. lora_unet_layers_15_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  92. lora_unet_layers_15_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  93. lora_unet_layers_15_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  94. lora_unet_layers_15_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  95. lora_unet_layers_15_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  96. lora_unet_layers_15_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  97. lora_unet_layers_15_feed_forward_w1.alpha: torch.Size([]) (torch.bfloat16)
+  98. lora_unet_layers_15_feed_forward_w1.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  99. lora_unet_layers_15_feed_forward_w1.lora_up.weight: torch.Size([10240, 32]) (torch.bfloat16)
+ 100. lora_unet_layers_15_feed_forward_w2.alpha: torch.Size([]) (torch.bfloat16)
+
+... and 350 more keys (use --detailed to see all)
+
+================================================================================
+ATTENTION KEYS ANALYSIS
+================================================================================
+Found 180 attention-related keys:
+   1. lora_unet_layers_0_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+   2. lora_unet_layers_0_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+   3. lora_unet_layers_0_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+   4. lora_unet_layers_0_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   5. lora_unet_layers_0_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   6. lora_unet_layers_0_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   7. lora_unet_layers_10_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+   8. lora_unet_layers_10_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+   9. lora_unet_layers_10_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  10. lora_unet_layers_10_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  11. lora_unet_layers_10_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  12. lora_unet_layers_10_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  13. lora_unet_layers_11_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  14. lora_unet_layers_11_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  15. lora_unet_layers_11_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  16. lora_unet_layers_11_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  17. lora_unet_layers_11_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  18. lora_unet_layers_11_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  19. lora_unet_layers_12_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  20. lora_unet_layers_12_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  21. lora_unet_layers_12_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  22. lora_unet_layers_12_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  23. lora_unet_layers_12_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  24. lora_unet_layers_12_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  25. lora_unet_layers_13_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  26. lora_unet_layers_13_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  27. lora_unet_layers_13_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  28. lora_unet_layers_13_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  29. lora_unet_layers_13_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  30. lora_unet_layers_13_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  31. lora_unet_layers_14_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  32. lora_unet_layers_14_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  33. lora_unet_layers_14_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  34. lora_unet_layers_14_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  35. lora_unet_layers_14_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  36. lora_unet_layers_14_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  37. lora_unet_layers_15_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  38. lora_unet_layers_15_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  39. lora_unet_layers_15_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  40. lora_unet_layers_15_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  41. lora_unet_layers_15_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  42. lora_unet_layers_15_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  43. lora_unet_layers_16_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  44. lora_unet_layers_16_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  45. lora_unet_layers_16_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  46. lora_unet_layers_16_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  47. lora_unet_layers_16_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  48. lora_unet_layers_16_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  49. lora_unet_layers_17_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  50. lora_unet_layers_17_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  51. lora_unet_layers_17_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  52. lora_unet_layers_17_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  53. lora_unet_layers_17_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  54. lora_unet_layers_17_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  55. lora_unet_layers_18_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  56. lora_unet_layers_18_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  57. lora_unet_layers_18_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  58. lora_unet_layers_18_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  59. lora_unet_layers_18_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  60. lora_unet_layers_18_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  61. lora_unet_layers_19_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  62. lora_unet_layers_19_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  63. lora_unet_layers_19_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  64. lora_unet_layers_19_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  65. lora_unet_layers_19_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  66. lora_unet_layers_19_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  67. lora_unet_layers_1_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  68. lora_unet_layers_1_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  69. lora_unet_layers_1_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  70. lora_unet_layers_1_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  71. lora_unet_layers_1_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  72. lora_unet_layers_1_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  73. lora_unet_layers_20_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  74. lora_unet_layers_20_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  75. lora_unet_layers_20_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  76. lora_unet_layers_20_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  77. lora_unet_layers_20_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  78. lora_unet_layers_20_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  79. lora_unet_layers_21_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  80. lora_unet_layers_21_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  81. lora_unet_layers_21_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  82. lora_unet_layers_21_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  83. lora_unet_layers_21_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  84. lora_unet_layers_21_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  85. lora_unet_layers_22_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  86. lora_unet_layers_22_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  87. lora_unet_layers_22_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  88. lora_unet_layers_22_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  89. lora_unet_layers_22_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  90. lora_unet_layers_22_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  91. lora_unet_layers_23_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  92. lora_unet_layers_23_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  93. lora_unet_layers_23_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+  94. lora_unet_layers_23_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+  95. lora_unet_layers_23_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+  96. lora_unet_layers_23_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+  97. lora_unet_layers_24_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+  98. lora_unet_layers_24_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+  99. lora_unet_layers_24_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 100. lora_unet_layers_24_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 101. lora_unet_layers_24_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 102. lora_unet_layers_24_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 103. lora_unet_layers_25_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 104. lora_unet_layers_25_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 105. lora_unet_layers_25_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 106. lora_unet_layers_25_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 107. lora_unet_layers_25_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 108. lora_unet_layers_25_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 109. lora_unet_layers_26_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 110. lora_unet_layers_26_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 111. lora_unet_layers_26_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 112. lora_unet_layers_26_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 113. lora_unet_layers_26_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 114. lora_unet_layers_26_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 115. lora_unet_layers_27_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 116. lora_unet_layers_27_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 117. lora_unet_layers_27_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 118. lora_unet_layers_27_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 119. lora_unet_layers_27_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 120. lora_unet_layers_27_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 121. lora_unet_layers_28_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 122. lora_unet_layers_28_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 123. lora_unet_layers_28_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 124. lora_unet_layers_28_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 125. lora_unet_layers_28_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 126. lora_unet_layers_28_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 127. lora_unet_layers_29_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 128. lora_unet_layers_29_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 129. lora_unet_layers_29_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 130. lora_unet_layers_29_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 131. lora_unet_layers_29_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 132. lora_unet_layers_29_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 133. lora_unet_layers_2_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 134. lora_unet_layers_2_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 135. lora_unet_layers_2_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 136. lora_unet_layers_2_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 137. lora_unet_layers_2_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 138. lora_unet_layers_2_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 139. lora_unet_layers_3_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 140. lora_unet_layers_3_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 141. lora_unet_layers_3_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 142. lora_unet_layers_3_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 143. lora_unet_layers_3_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 144. lora_unet_layers_3_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 145. lora_unet_layers_4_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 146. lora_unet_layers_4_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 147. lora_unet_layers_4_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 148. lora_unet_layers_4_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 149. lora_unet_layers_4_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 150. lora_unet_layers_4_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 151. lora_unet_layers_5_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 152. lora_unet_layers_5_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 153. lora_unet_layers_5_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 154. lora_unet_layers_5_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 155. lora_unet_layers_5_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 156. lora_unet_layers_5_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 157. lora_unet_layers_6_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 158. lora_unet_layers_6_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 159. lora_unet_layers_6_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 160. lora_unet_layers_6_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 161. lora_unet_layers_6_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 162. lora_unet_layers_6_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 163. lora_unet_layers_7_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 164. lora_unet_layers_7_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 165. lora_unet_layers_7_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 166. lora_unet_layers_7_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 167. lora_unet_layers_7_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 168. lora_unet_layers_7_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 169. lora_unet_layers_8_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 170. lora_unet_layers_8_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 171. lora_unet_layers_8_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 172. lora_unet_layers_8_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 173. lora_unet_layers_8_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 174. lora_unet_layers_8_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+ 175. lora_unet_layers_9_attention_out.alpha: torch.Size([]) (torch.bfloat16)
+ 176. lora_unet_layers_9_attention_out.lora_down.weight: torch.Size([32, 3840]) (torch.bfloat16)
+ 177. lora_unet_layers_9_attention_out.lora_up.weight: torch.Size([3840, 32]) (torch.bfloat16)
+ 178. lora_unet_layers_9_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+ 179. lora_unet_layers_9_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+ 180. lora_unet_layers_9_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+
+================================================================================
+QKV PATTERN ANALYSIS
+================================================================================
+
+QKV combined (.*attention.*qkv.*): 90 keys
+    1. lora_unet_layers_0_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+    2. lora_unet_layers_0_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+    3. lora_unet_layers_0_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+    4. lora_unet_layers_10_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+    5. lora_unet_layers_10_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+    6. lora_unet_layers_10_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+    7. lora_unet_layers_11_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+    8. lora_unet_layers_11_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+    9. lora_unet_layers_11_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   10. lora_unet_layers_12_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   11. lora_unet_layers_12_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   12. lora_unet_layers_12_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   13. lora_unet_layers_13_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   14. lora_unet_layers_13_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   15. lora_unet_layers_13_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   16. lora_unet_layers_14_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   17. lora_unet_layers_14_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   18. lora_unet_layers_14_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   19. lora_unet_layers_15_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   20. lora_unet_layers_15_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   21. lora_unet_layers_15_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   22. lora_unet_layers_16_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   23. lora_unet_layers_16_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   24. lora_unet_layers_16_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   25. lora_unet_layers_17_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   26. lora_unet_layers_17_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   27. lora_unet_layers_17_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   28. lora_unet_layers_18_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   29. lora_unet_layers_18_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   30. lora_unet_layers_18_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   31. lora_unet_layers_19_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   32. lora_unet_layers_19_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   33. lora_unet_layers_19_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   34. lora_unet_layers_1_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   35. lora_unet_layers_1_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   36. lora_unet_layers_1_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   37. lora_unet_layers_20_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   38. lora_unet_layers_20_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   39. lora_unet_layers_20_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   40. lora_unet_layers_21_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   41. lora_unet_layers_21_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   42. lora_unet_layers_21_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   43. lora_unet_layers_22_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   44. lora_unet_layers_22_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   45. lora_unet_layers_22_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   46. lora_unet_layers_23_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   47. lora_unet_layers_23_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   48. lora_unet_layers_23_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   49. lora_unet_layers_24_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   50. lora_unet_layers_24_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   51. lora_unet_layers_24_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   52. lora_unet_layers_25_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   53. lora_unet_layers_25_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   54. lora_unet_layers_25_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   55. lora_unet_layers_26_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   56. lora_unet_layers_26_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   57. lora_unet_layers_26_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   58. lora_unet_layers_27_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   59. lora_unet_layers_27_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   60. lora_unet_layers_27_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   61. lora_unet_layers_28_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   62. lora_unet_layers_28_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   63. lora_unet_layers_28_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   64. lora_unet_layers_29_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   65. lora_unet_layers_29_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   66. lora_unet_layers_29_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   67. lora_unet_layers_2_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   68. lora_unet_layers_2_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   69. lora_unet_layers_2_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   70. lora_unet_layers_3_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   71. lora_unet_layers_3_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   72. lora_unet_layers_3_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   73. lora_unet_layers_4_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   74. lora_unet_layers_4_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   75. lora_unet_layers_4_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   76. lora_unet_layers_5_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   77. lora_unet_layers_5_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   78. lora_unet_layers_5_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   79. lora_unet_layers_6_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   80. lora_unet_layers_6_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   81. lora_unet_layers_6_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   82. lora_unet_layers_7_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   83. lora_unet_layers_7_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   84. lora_unet_layers_7_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   85. lora_unet_layers_8_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   86. lora_unet_layers_8_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   87. lora_unet_layers_8_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+   88. lora_unet_layers_9_attention_qkv.alpha: torch.Size([]) (torch.bfloat16)
+   89. lora_unet_layers_9_attention_qkv.lora_down.weight: torch.Size([96, 3840]) (torch.bfloat16)
+   90. lora_unet_layers_9_attention_qkv.lora_up.weight: torch.Size([11520, 96]) (torch.bfloat16)
+
+================================================================================
+MODEL TYPE DETECTION
+================================================================================
+Detected model type: Model with LoRA weights (unmerged)
+
+================================================================================
+QKV LAYER DETAILED ANALYSIS
+================================================================================
+No standard QKV layers found in first 32 layers.
+
+Searching for separate Q, K, V weights...
+
+================================================================================
+LORA/ADAPTER PARAMETER DETECTION
+================================================================================
+Found 300 explicit LoRA/Adapter keys:
+   1. lora_unet_layers_0_attention_out.lora_down.weight: torch.Size([32, 3840])
+   2. lora_unet_layers_0_attention_out.lora_up.weight: torch.Size([3840, 32])
+   3. lora_unet_layers_0_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+   4. lora_unet_layers_0_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+   5. lora_unet_layers_0_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+   6. lora_unet_layers_0_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+   7. lora_unet_layers_0_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+   8. lora_unet_layers_0_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+   9. lora_unet_layers_0_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  10. lora_unet_layers_0_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  11. lora_unet_layers_10_attention_out.lora_down.weight: torch.Size([32, 3840])
+  12. lora_unet_layers_10_attention_out.lora_up.weight: torch.Size([3840, 32])
+  13. lora_unet_layers_10_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  14. lora_unet_layers_10_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  15. lora_unet_layers_10_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  16. lora_unet_layers_10_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  17. lora_unet_layers_10_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  18. lora_unet_layers_10_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  19. lora_unet_layers_10_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  20. lora_unet_layers_10_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  21. lora_unet_layers_11_attention_out.lora_down.weight: torch.Size([32, 3840])
+  22. lora_unet_layers_11_attention_out.lora_up.weight: torch.Size([3840, 32])
+  23. lora_unet_layers_11_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  24. lora_unet_layers_11_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  25. lora_unet_layers_11_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  26. lora_unet_layers_11_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  27. lora_unet_layers_11_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  28. lora_unet_layers_11_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  29. lora_unet_layers_11_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  30. lora_unet_layers_11_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  31. lora_unet_layers_12_attention_out.lora_down.weight: torch.Size([32, 3840])
+  32. lora_unet_layers_12_attention_out.lora_up.weight: torch.Size([3840, 32])
+  33. lora_unet_layers_12_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  34. lora_unet_layers_12_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  35. lora_unet_layers_12_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  36. lora_unet_layers_12_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  37. lora_unet_layers_12_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  38. lora_unet_layers_12_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  39. lora_unet_layers_12_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  40. lora_unet_layers_12_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  41. lora_unet_layers_13_attention_out.lora_down.weight: torch.Size([32, 3840])
+  42. lora_unet_layers_13_attention_out.lora_up.weight: torch.Size([3840, 32])
+  43. lora_unet_layers_13_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  44. lora_unet_layers_13_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  45. lora_unet_layers_13_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  46. lora_unet_layers_13_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  47. lora_unet_layers_13_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  48. lora_unet_layers_13_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  49. lora_unet_layers_13_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  50. lora_unet_layers_13_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  51. lora_unet_layers_14_attention_out.lora_down.weight: torch.Size([32, 3840])
+  52. lora_unet_layers_14_attention_out.lora_up.weight: torch.Size([3840, 32])
+  53. lora_unet_layers_14_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  54. lora_unet_layers_14_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  55. lora_unet_layers_14_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  56. lora_unet_layers_14_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  57. lora_unet_layers_14_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  58. lora_unet_layers_14_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  59. lora_unet_layers_14_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  60. lora_unet_layers_14_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  61. lora_unet_layers_15_attention_out.lora_down.weight: torch.Size([32, 3840])
+  62. lora_unet_layers_15_attention_out.lora_up.weight: torch.Size([3840, 32])
+  63. lora_unet_layers_15_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  64. lora_unet_layers_15_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  65. lora_unet_layers_15_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  66. lora_unet_layers_15_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  67. lora_unet_layers_15_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  68. lora_unet_layers_15_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  69. lora_unet_layers_15_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  70. lora_unet_layers_15_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  71. lora_unet_layers_16_attention_out.lora_down.weight: torch.Size([32, 3840])
+  72. lora_unet_layers_16_attention_out.lora_up.weight: torch.Size([3840, 32])
+  73. lora_unet_layers_16_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  74. lora_unet_layers_16_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  75. lora_unet_layers_16_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  76. lora_unet_layers_16_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  77. lora_unet_layers_16_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  78. lora_unet_layers_16_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  79. lora_unet_layers_16_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  80. lora_unet_layers_16_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  81. lora_unet_layers_17_attention_out.lora_down.weight: torch.Size([32, 3840])
+  82. lora_unet_layers_17_attention_out.lora_up.weight: torch.Size([3840, 32])
+  83. lora_unet_layers_17_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  84. lora_unet_layers_17_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  85. lora_unet_layers_17_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  86. lora_unet_layers_17_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  87. lora_unet_layers_17_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  88. lora_unet_layers_17_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  89. lora_unet_layers_17_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+  90. lora_unet_layers_17_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+  91. lora_unet_layers_18_attention_out.lora_down.weight: torch.Size([32, 3840])
+  92. lora_unet_layers_18_attention_out.lora_up.weight: torch.Size([3840, 32])
+  93. lora_unet_layers_18_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+  94. lora_unet_layers_18_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+  95. lora_unet_layers_18_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+  96. lora_unet_layers_18_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+  97. lora_unet_layers_18_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+  98. lora_unet_layers_18_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+  99. lora_unet_layers_18_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 100. lora_unet_layers_18_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 101. lora_unet_layers_19_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 102. lora_unet_layers_19_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 103. lora_unet_layers_19_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 104. lora_unet_layers_19_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 105. lora_unet_layers_19_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 106. lora_unet_layers_19_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 107. lora_unet_layers_19_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 108. lora_unet_layers_19_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 109. lora_unet_layers_19_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 110. lora_unet_layers_19_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 111. lora_unet_layers_1_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 112. lora_unet_layers_1_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 113. lora_unet_layers_1_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 114. lora_unet_layers_1_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 115. lora_unet_layers_1_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 116. lora_unet_layers_1_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 117. lora_unet_layers_1_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 118. lora_unet_layers_1_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 119. lora_unet_layers_1_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 120. lora_unet_layers_1_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 121. lora_unet_layers_20_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 122. lora_unet_layers_20_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 123. lora_unet_layers_20_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 124. lora_unet_layers_20_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 125. lora_unet_layers_20_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 126. lora_unet_layers_20_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 127. lora_unet_layers_20_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 128. lora_unet_layers_20_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 129. lora_unet_layers_20_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 130. lora_unet_layers_20_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 131. lora_unet_layers_21_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 132. lora_unet_layers_21_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 133. lora_unet_layers_21_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 134. lora_unet_layers_21_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 135. lora_unet_layers_21_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 136. lora_unet_layers_21_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 137. lora_unet_layers_21_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 138. lora_unet_layers_21_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 139. lora_unet_layers_21_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 140. lora_unet_layers_21_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 141. lora_unet_layers_22_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 142. lora_unet_layers_22_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 143. lora_unet_layers_22_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 144. lora_unet_layers_22_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 145. lora_unet_layers_22_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 146. lora_unet_layers_22_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 147. lora_unet_layers_22_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 148. lora_unet_layers_22_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 149. lora_unet_layers_22_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 150. lora_unet_layers_22_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 151. lora_unet_layers_23_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 152. lora_unet_layers_23_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 153. lora_unet_layers_23_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 154. lora_unet_layers_23_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 155. lora_unet_layers_23_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 156. lora_unet_layers_23_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 157. lora_unet_layers_23_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 158. lora_unet_layers_23_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 159. lora_unet_layers_23_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 160. lora_unet_layers_23_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 161. lora_unet_layers_24_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 162. lora_unet_layers_24_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 163. lora_unet_layers_24_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 164. lora_unet_layers_24_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 165. lora_unet_layers_24_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 166. lora_unet_layers_24_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 167. lora_unet_layers_24_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 168. lora_unet_layers_24_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 169. lora_unet_layers_24_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 170. lora_unet_layers_24_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 171. lora_unet_layers_25_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 172. lora_unet_layers_25_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 173. lora_unet_layers_25_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 174. lora_unet_layers_25_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 175. lora_unet_layers_25_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 176. lora_unet_layers_25_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 177. lora_unet_layers_25_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 178. lora_unet_layers_25_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 179. lora_unet_layers_25_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 180. lora_unet_layers_25_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 181. lora_unet_layers_26_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 182. lora_unet_layers_26_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 183. lora_unet_layers_26_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 184. lora_unet_layers_26_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 185. lora_unet_layers_26_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 186. lora_unet_layers_26_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 187. lora_unet_layers_26_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 188. lora_unet_layers_26_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 189. lora_unet_layers_26_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 190. lora_unet_layers_26_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 191. lora_unet_layers_27_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 192. lora_unet_layers_27_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 193. lora_unet_layers_27_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 194. lora_unet_layers_27_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 195. lora_unet_layers_27_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 196. lora_unet_layers_27_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 197. lora_unet_layers_27_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 198. lora_unet_layers_27_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 199. lora_unet_layers_27_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 200. lora_unet_layers_27_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 201. lora_unet_layers_28_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 202. lora_unet_layers_28_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 203. lora_unet_layers_28_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 204. lora_unet_layers_28_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 205. lora_unet_layers_28_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 206. lora_unet_layers_28_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 207. lora_unet_layers_28_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 208. lora_unet_layers_28_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 209. lora_unet_layers_28_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 210. lora_unet_layers_28_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 211. lora_unet_layers_29_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 212. lora_unet_layers_29_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 213. lora_unet_layers_29_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 214. lora_unet_layers_29_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 215. lora_unet_layers_29_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 216. lora_unet_layers_29_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 217. lora_unet_layers_29_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 218. lora_unet_layers_29_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 219. lora_unet_layers_29_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 220. lora_unet_layers_29_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 221. lora_unet_layers_2_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 222. lora_unet_layers_2_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 223. lora_unet_layers_2_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 224. lora_unet_layers_2_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 225. lora_unet_layers_2_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 226. lora_unet_layers_2_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 227. lora_unet_layers_2_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 228. lora_unet_layers_2_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 229. lora_unet_layers_2_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 230. lora_unet_layers_2_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 231. lora_unet_layers_3_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 232. lora_unet_layers_3_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 233. lora_unet_layers_3_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 234. lora_unet_layers_3_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 235. lora_unet_layers_3_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 236. lora_unet_layers_3_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 237. lora_unet_layers_3_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 238. lora_unet_layers_3_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 239. lora_unet_layers_3_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 240. lora_unet_layers_3_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 241. lora_unet_layers_4_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 242. lora_unet_layers_4_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 243. lora_unet_layers_4_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 244. lora_unet_layers_4_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 245. lora_unet_layers_4_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 246. lora_unet_layers_4_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 247. lora_unet_layers_4_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 248. lora_unet_layers_4_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 249. lora_unet_layers_4_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 250. lora_unet_layers_4_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 251. lora_unet_layers_5_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 252. lora_unet_layers_5_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 253. lora_unet_layers_5_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 254. lora_unet_layers_5_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 255. lora_unet_layers_5_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 256. lora_unet_layers_5_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 257. lora_unet_layers_5_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 258. lora_unet_layers_5_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 259. lora_unet_layers_5_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 260. lora_unet_layers_5_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 261. lora_unet_layers_6_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 262. lora_unet_layers_6_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 263. lora_unet_layers_6_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 264. lora_unet_layers_6_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 265. lora_unet_layers_6_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 266. lora_unet_layers_6_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 267. lora_unet_layers_6_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 268. lora_unet_layers_6_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 269. lora_unet_layers_6_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 270. lora_unet_layers_6_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 271. lora_unet_layers_7_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 272. lora_unet_layers_7_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 273. lora_unet_layers_7_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 274. lora_unet_layers_7_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 275. lora_unet_layers_7_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 276. lora_unet_layers_7_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 277. lora_unet_layers_7_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 278. lora_unet_layers_7_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 279. lora_unet_layers_7_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 280. lora_unet_layers_7_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 281. lora_unet_layers_8_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 282. lora_unet_layers_8_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 283. lora_unet_layers_8_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 284. lora_unet_layers_8_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 285. lora_unet_layers_8_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 286. lora_unet_layers_8_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 287. lora_unet_layers_8_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 288. lora_unet_layers_8_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 289. lora_unet_layers_8_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 290. lora_unet_layers_8_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+ 291. lora_unet_layers_9_attention_out.lora_down.weight: torch.Size([32, 3840])
+ 292. lora_unet_layers_9_attention_out.lora_up.weight: torch.Size([3840, 32])
+ 293. lora_unet_layers_9_attention_qkv.lora_down.weight: torch.Size([96, 3840])
+ 294. lora_unet_layers_9_attention_qkv.lora_up.weight: torch.Size([11520, 96])
+ 295. lora_unet_layers_9_feed_forward_w1.lora_down.weight: torch.Size([32, 3840])
+ 296. lora_unet_layers_9_feed_forward_w1.lora_up.weight: torch.Size([10240, 32])
+ 297. lora_unet_layers_9_feed_forward_w2.lora_down.weight: torch.Size([32, 10240])
+ 298. lora_unet_layers_9_feed_forward_w2.lora_up.weight: torch.Size([3840, 32])
+ 299. lora_unet_layers_9_feed_forward_w3.lora_down.weight: torch.Size([32, 3840])
+ 300. lora_unet_layers_9_feed_forward_w3.lora_up.weight: torch.Size([10240, 32])
+
+Found 150 alpha parameters:
+   1. lora_unet_layers_0_attention_out.alpha: 1.0
+   2. lora_unet_layers_0_attention_qkv.alpha: 3.0
+   3. lora_unet_layers_0_feed_forward_w1.alpha: 1.0
+   4. lora_unet_layers_0_feed_forward_w2.alpha: 1.0
+   5. lora_unet_layers_0_feed_forward_w3.alpha: 1.0
+   6. lora_unet_layers_10_attention_out.alpha: 1.0
+   7. lora_unet_layers_10_attention_qkv.alpha: 3.0
+   8. lora_unet_layers_10_feed_forward_w1.alpha: 1.0
+   9. lora_unet_layers_10_feed_forward_w2.alpha: 1.0
+  10. lora_unet_layers_10_feed_forward_w3.alpha: 1.0
+  11. lora_unet_layers_11_attention_out.alpha: 1.0
+  12. lora_unet_layers_11_attention_qkv.alpha: 3.0
+  13. lora_unet_layers_11_feed_forward_w1.alpha: 1.0
+  14. lora_unet_layers_11_feed_forward_w2.alpha: 1.0
+  15. lora_unet_layers_11_feed_forward_w3.alpha: 1.0
+  16. lora_unet_layers_12_attention_out.alpha: 1.0
+  17. lora_unet_layers_12_attention_qkv.alpha: 3.0
+  18. lora_unet_layers_12_feed_forward_w1.alpha: 1.0
+  19. lora_unet_layers_12_feed_forward_w2.alpha: 1.0
+  20. lora_unet_layers_12_feed_forward_w3.alpha: 1.0
+  21. lora_unet_layers_13_attention_out.alpha: 1.0
+  22. lora_unet_layers_13_attention_qkv.alpha: 3.0
+  23. lora_unet_layers_13_feed_forward_w1.alpha: 1.0
+  24. lora_unet_layers_13_feed_forward_w2.alpha: 1.0
+  25. lora_unet_layers_13_feed_forward_w3.alpha: 1.0
+  26. lora_unet_layers_14_attention_out.alpha: 1.0
+  27. lora_unet_layers_14_attention_qkv.alpha: 3.0
+  28. lora_unet_layers_14_feed_forward_w1.alpha: 1.0
+  29. lora_unet_layers_14_feed_forward_w2.alpha: 1.0
+  30. lora_unet_layers_14_feed_forward_w3.alpha: 1.0
+  31. lora_unet_layers_15_attention_out.alpha: 1.0
+  32. lora_unet_layers_15_attention_qkv.alpha: 3.0
+  33. lora_unet_layers_15_feed_forward_w1.alpha: 1.0
+  34. lora_unet_layers_15_feed_forward_w2.alpha: 1.0
+  35. lora_unet_layers_15_feed_forward_w3.alpha: 1.0
+  36. lora_unet_layers_16_attention_out.alpha: 1.0
+  37. lora_unet_layers_16_attention_qkv.alpha: 3.0
+  38. lora_unet_layers_16_feed_forward_w1.alpha: 1.0
+  39. lora_unet_layers_16_feed_forward_w2.alpha: 1.0
+  40. lora_unet_layers_16_feed_forward_w3.alpha: 1.0
+  41. lora_unet_layers_17_attention_out.alpha: 1.0
+  42. lora_unet_layers_17_attention_qkv.alpha: 3.0
+  43. lora_unet_layers_17_feed_forward_w1.alpha: 1.0
+  44. lora_unet_layers_17_feed_forward_w2.alpha: 1.0
+  45. lora_unet_layers_17_feed_forward_w3.alpha: 1.0
+  46. lora_unet_layers_18_attention_out.alpha: 1.0
+  47. lora_unet_layers_18_attention_qkv.alpha: 3.0
+  48. lora_unet_layers_18_feed_forward_w1.alpha: 1.0
+  49. lora_unet_layers_18_feed_forward_w2.alpha: 1.0
+  50. lora_unet_layers_18_feed_forward_w3.alpha: 1.0
+  51. lora_unet_layers_19_attention_out.alpha: 1.0
+  52. lora_unet_layers_19_attention_qkv.alpha: 3.0
+  53. lora_unet_layers_19_feed_forward_w1.alpha: 1.0
+  54. lora_unet_layers_19_feed_forward_w2.alpha: 1.0
+  55. lora_unet_layers_19_feed_forward_w3.alpha: 1.0
+  56. lora_unet_layers_1_attention_out.alpha: 1.0
+  57. lora_unet_layers_1_attention_qkv.alpha: 3.0
+  58. lora_unet_layers_1_feed_forward_w1.alpha: 1.0
+  59. lora_unet_layers_1_feed_forward_w2.alpha: 1.0
+  60. lora_unet_layers_1_feed_forward_w3.alpha: 1.0
+  61. lora_unet_layers_20_attention_out.alpha: 1.0
+  62. lora_unet_layers_20_attention_qkv.alpha: 3.0
+  63. lora_unet_layers_20_feed_forward_w1.alpha: 1.0
+  64. lora_unet_layers_20_feed_forward_w2.alpha: 1.0
+  65. lora_unet_layers_20_feed_forward_w3.alpha: 1.0
+  66. lora_unet_layers_21_attention_out.alpha: 1.0
+  67. lora_unet_layers_21_attention_qkv.alpha: 3.0
+  68. lora_unet_layers_21_feed_forward_w1.alpha: 1.0
+  69. lora_unet_layers_21_feed_forward_w2.alpha: 1.0
+  70. lora_unet_layers_21_feed_forward_w3.alpha: 1.0
+  71. lora_unet_layers_22_attention_out.alpha: 1.0
+  72. lora_unet_layers_22_attention_qkv.alpha: 3.0
+  73. lora_unet_layers_22_feed_forward_w1.alpha: 1.0
+  74. lora_unet_layers_22_feed_forward_w2.alpha: 1.0
+  75. lora_unet_layers_22_feed_forward_w3.alpha: 1.0
+  76. lora_unet_layers_23_attention_out.alpha: 1.0
+  77. lora_unet_layers_23_attention_qkv.alpha: 3.0
+  78. lora_unet_layers_23_feed_forward_w1.alpha: 1.0
+  79. lora_unet_layers_23_feed_forward_w2.alpha: 1.0
+  80. lora_unet_layers_23_feed_forward_w3.alpha: 1.0
+  81. lora_unet_layers_24_attention_out.alpha: 1.0
+  82. lora_unet_layers_24_attention_qkv.alpha: 3.0
+  83. lora_unet_layers_24_feed_forward_w1.alpha: 1.0
+  84. lora_unet_layers_24_feed_forward_w2.alpha: 1.0
+  85. lora_unet_layers_24_feed_forward_w3.alpha: 1.0
+  86. lora_unet_layers_25_attention_out.alpha: 1.0
+  87. lora_unet_layers_25_attention_qkv.alpha: 3.0
+  88. lora_unet_layers_25_feed_forward_w1.alpha: 1.0
+  89. lora_unet_layers_25_feed_forward_w2.alpha: 1.0
+  90. lora_unet_layers_25_feed_forward_w3.alpha: 1.0
+  91. lora_unet_layers_26_attention_out.alpha: 1.0
+  92. lora_unet_layers_26_attention_qkv.alpha: 3.0
+  93. lora_unet_layers_26_feed_forward_w1.alpha: 1.0
+  94. lora_unet_layers_26_feed_forward_w2.alpha: 1.0
+  95. lora_unet_layers_26_feed_forward_w3.alpha: 1.0
+  96. lora_unet_layers_27_attention_out.alpha: 1.0
+  97. lora_unet_layers_27_attention_qkv.alpha: 3.0
+  98. lora_unet_layers_27_feed_forward_w1.alpha: 1.0
+  99. lora_unet_layers_27_feed_forward_w2.alpha: 1.0
+ 100. lora_unet_layers_27_feed_forward_w3.alpha: 1.0
+ 101. lora_unet_layers_28_attention_out.alpha: 1.0
+ 102. lora_unet_layers_28_attention_qkv.alpha: 3.0
+ 103. lora_unet_layers_28_feed_forward_w1.alpha: 1.0
+ 104. lora_unet_layers_28_feed_forward_w2.alpha: 1.0
+ 105. lora_unet_layers_28_feed_forward_w3.alpha: 1.0
+ 106. lora_unet_layers_29_attention_out.alpha: 1.0
+ 107. lora_unet_layers_29_attention_qkv.alpha: 3.0
+ 108. lora_unet_layers_29_feed_forward_w1.alpha: 1.0
+ 109. lora_unet_layers_29_feed_forward_w2.alpha: 1.0
+ 110. lora_unet_layers_29_feed_forward_w3.alpha: 1.0
+ 111. lora_unet_layers_2_attention_out.alpha: 1.0
+ 112. lora_unet_layers_2_attention_qkv.alpha: 3.0
+ 113. lora_unet_layers_2_feed_forward_w1.alpha: 1.0
+ 114. lora_unet_layers_2_feed_forward_w2.alpha: 1.0
+ 115. lora_unet_layers_2_feed_forward_w3.alpha: 1.0
+ 116. lora_unet_layers_3_attention_out.alpha: 1.0
+ 117. lora_unet_layers_3_attention_qkv.alpha: 3.0
+ 118. lora_unet_layers_3_feed_forward_w1.alpha: 1.0
+ 119. lora_unet_layers_3_feed_forward_w2.alpha: 1.0
+ 120. lora_unet_layers_3_feed_forward_w3.alpha: 1.0
+ 121. lora_unet_layers_4_attention_out.alpha: 1.0
+ 122. lora_unet_layers_4_attention_qkv.alpha: 3.0
+ 123. lora_unet_layers_4_feed_forward_w1.alpha: 1.0
+ 124. lora_unet_layers_4_feed_forward_w2.alpha: 1.0
+ 125. lora_unet_layers_4_feed_forward_w3.alpha: 1.0
+ 126. lora_unet_layers_5_attention_out.alpha: 1.0
+ 127. lora_unet_layers_5_attention_qkv.alpha: 3.0
+ 128. lora_unet_layers_5_feed_forward_w1.alpha: 1.0
+ 129. lora_unet_layers_5_feed_forward_w2.alpha: 1.0
+ 130. lora_unet_layers_5_feed_forward_w3.alpha: 1.0
+ 131. lora_unet_layers_6_attention_out.alpha: 1.0
+ 132. lora_unet_layers_6_attention_qkv.alpha: 3.0
+ 133. lora_unet_layers_6_feed_forward_w1.alpha: 1.0
+ 134. lora_unet_layers_6_feed_forward_w2.alpha: 1.0
+ 135. lora_unet_layers_6_feed_forward_w3.alpha: 1.0
+ 136. lora_unet_layers_7_attention_out.alpha: 1.0
+ 137. lora_unet_layers_7_attention_qkv.alpha: 3.0
+ 138. lora_unet_layers_7_feed_forward_w1.alpha: 1.0
+ 139. lora_unet_layers_7_feed_forward_w2.alpha: 1.0
+ 140. lora_unet_layers_7_feed_forward_w3.alpha: 1.0
+ 141. lora_unet_layers_8_attention_out.alpha: 1.0
+ 142. lora_unet_layers_8_attention_qkv.alpha: 3.0
+ 143. lora_unet_layers_8_feed_forward_w1.alpha: 1.0
+ 144. lora_unet_layers_8_feed_forward_w2.alpha: 1.0
+ 145. lora_unet_layers_8_feed_forward_w3.alpha: 1.0
+ 146. lora_unet_layers_9_attention_out.alpha: 1.0
+ 147. lora_unet_layers_9_attention_qkv.alpha: 3.0
+ 148. lora_unet_layers_9_feed_forward_w1.alpha: 1.0
+ 149. lora_unet_layers_9_feed_forward_w2.alpha: 1.0
+ 150. lora_unet_layers_9_feed_forward_w3.alpha: 1.0
+Found 300 potential LoRA/Adapter components:
+
+lora_unet_layers_0_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [2.677730, 1.443576, 1.036248, 0.873503, 0.728858, 0.685341, 0.655640, 0.631833, 0.605248, 0.600585, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [2.531751, 1.176768, 0.721618, 0.416740, 0.353076, 0.281571, 0.239551, 0.204730, 0.179093, 0.145231, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [3.258908, 2.574329, 2.135390, 1.650412, 1.430642, 1.273178, 1.099466, 1.083541, 0.924008, 0.797297, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_0_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [4.943833, 3.723518, 3.435436, 2.960463, 2.357497, 2.028032, 1.845614, 1.299688, 1.175685, 1.086769, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_0_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [12.494818, 1.505736, 1.062927, 0.957324, 0.758145, 0.659080, 0.648119, 0.634565, 0.618366, 0.614999, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [14.153766, 1.662687, 1.377275, 0.657172, 0.620178, 0.369627, 0.313970, 0.281112, 0.249171, 0.239939, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [5.232670, 3.926913, 2.330939, 1.998501, 1.045993, 0.891799, 0.825988, 0.792110, 0.766732, 0.739474, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [4.049048, 2.957745, 1.993690, 1.390155, 0.672615, 0.555150, 0.440853, 0.409665, 0.383961, 0.373397, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.521610, 1.501342, 1.063712, 1.053600, 0.963859, 0.878972, 0.735566, 0.692445, 0.629612, 0.621577, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_0_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [11.704803, 1.642885, 1.303446, 0.849092, 0.744797, 0.626642, 0.514539, 0.384460, 0.336422, 0.249853, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.905169, 3.488728, 2.276939, 1.376653, 1.275405, 1.221777, 1.078205, 0.945791, 0.904687, 0.847590, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [6.899732, 3.193000, 1.998895, 1.338289, 1.073531, 0.822144, 0.773849, 0.747977, 0.603922, 0.523314, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [7.725031, 6.238208, 5.320657, 3.542849, 3.022850, 2.833543, 2.164953, 2.148242, 1.933801, 1.790716, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_10_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [8.166229, 8.078815, 7.181170, 3.705388, 3.291380, 3.173520, 3.055670, 2.328639, 2.074122, 2.048084, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_10_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.140213, 3.842305, 1.973713, 1.441262, 1.068092, 0.985626, 0.971597, 0.922347, 0.852754, 0.785958, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.278653, 5.149010, 2.460770, 1.876653, 1.283592, 1.109428, 0.934274, 0.858964, 0.814845, 0.586497, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.189117, 6.614824, 2.728338, 2.293175, 1.758771, 1.457780, 1.245004, 1.176669, 1.104468, 0.993021, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.447290, 4.618568, 1.727713, 1.464061, 0.921981, 0.775405, 0.666602, 0.541144, 0.501114, 0.441905, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.773002, 3.549326, 2.981799, 1.777976, 1.476648, 1.400997, 1.250271, 1.078184, 1.066166, 0.968980, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_10_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [13.101099, 5.533241, 4.368434, 3.064041, 2.059823, 1.833112, 1.451040, 1.366261, 1.243090, 1.138255, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.639144, 2.357374, 1.718246, 1.543885, 1.066244, 0.993711, 0.891724, 0.828837, 0.793585, 0.734588, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.076627, 1.964302, 1.406905, 1.211310, 0.784274, 0.627159, 0.489635, 0.424254, 0.380649, 0.345229, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [7.827782, 6.461936, 4.693631, 3.372766, 3.044997, 2.814336, 2.513103, 2.354613, 2.251582, 2.120790, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_11_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [8.631056, 8.135705, 5.814323, 3.908242, 3.411197, 3.061963, 2.646415, 2.481029, 2.429468, 2.422192, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_11_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.967826, 3.897175, 2.072122, 1.300156, 1.142343, 1.108198, 0.993205, 0.970454, 0.932391, 0.899897, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [16.073219, 5.201930, 2.121862, 1.313164, 1.199462, 1.139660, 1.004862, 0.809179, 0.702620, 0.644702, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.073188, 7.495114, 3.910302, 2.458592, 2.290327, 1.956772, 1.593053, 1.467480, 1.324865, 1.118538, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.309944, 5.423086, 2.731839, 1.665991, 1.170229, 0.991615, 0.865618, 0.773968, 0.618276, 0.534662, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [8.389338, 4.088278, 3.460526, 2.054226, 1.752988, 1.483221, 1.298121, 1.230886, 1.152600, 1.101912, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_11_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [13.336761, 6.737347, 4.796598, 2.597743, 2.065921, 1.710106, 1.657820, 1.398455, 1.205340, 1.155479, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.995813, 2.168411, 1.771771, 1.326426, 1.142362, 0.956294, 0.823837, 0.773932, 0.740687, 0.702591, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.215998, 1.649824, 0.991497, 0.848729, 0.758038, 0.468633, 0.403497, 0.305468, 0.304498, 0.282983, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [10.343642, 5.817731, 5.178709, 3.854385, 3.379768, 3.195366, 2.605803, 2.480681, 2.216650, 2.131443, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_12_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [10.695859, 7.656104, 6.719019, 3.895691, 3.512944, 3.229236, 2.654658, 2.307054, 2.174480, 2.122190, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_12_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [12.810303, 4.155674, 1.601414, 1.337345, 1.187181, 1.042287, 0.893577, 0.810337, 0.789144, 0.775023, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [17.363720, 4.629383, 2.072912, 1.263540, 1.155850, 0.868226, 0.741487, 0.659344, 0.552121, 0.492463, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.909698, 8.010378, 3.943724, 2.627205, 2.299476, 1.960620, 1.621806, 1.515677, 1.427320, 1.300922, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.847694, 5.314242, 2.519707, 1.559913, 1.498480, 1.154459, 0.987749, 0.844082, 0.699748, 0.637783, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.231636, 4.029184, 2.290265, 1.584339, 1.369562, 1.325528, 1.186969, 1.117599, 0.955724, 0.907990, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_12_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.501240, 6.043573, 2.666398, 2.451873, 1.686728, 1.546297, 1.361890, 1.248469, 0.922727, 0.853687, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.715383, 3.438491, 1.963951, 1.517657, 0.914178, 0.845519, 0.781252, 0.747741, 0.728358, 0.698791, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.654250, 2.869637, 1.360226, 0.892786, 0.497249, 0.432342, 0.380518, 0.365055, 0.291473, 0.270286, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [9.779552, 6.161462, 5.222842, 4.219551, 3.862160, 3.264812, 2.991438, 2.624801, 2.195138, 2.002954, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_13_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [9.966502, 6.225031, 5.645093, 4.429343, 4.362844, 3.662977, 3.554645, 2.847887, 2.601343, 2.536502, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_13_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.753450, 5.007784, 1.399573, 1.190656, 1.029352, 0.940375, 0.862645, 0.775964, 0.747163, 0.722750, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [18.684565, 5.076272, 1.473122, 0.895694, 0.729373, 0.593095, 0.550904, 0.449621, 0.448886, 0.394609, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.575576, 8.553811, 3.145282, 2.278806, 1.683064, 1.435692, 1.255534, 1.169424, 1.049469, 0.975762, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.164985, 5.370394, 1.827771, 1.595900, 0.968028, 0.755822, 0.668564, 0.526835, 0.475862, 0.448736, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.680989, 5.801127, 1.921648, 1.317142, 1.237138, 1.129360, 1.025041, 0.917640, 0.877928, 0.830235, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_13_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [16.633533, 7.520783, 2.051584, 1.490624, 1.180043, 1.140971, 0.890982, 0.813791, 0.670900, 0.646443, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.154664, 4.438160, 1.507689, 1.243639, 1.122434, 0.909288, 0.829736, 0.788297, 0.752494, 0.744782, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.712603, 2.959847, 0.828857, 0.613710, 0.580739, 0.415608, 0.357688, 0.340176, 0.289317, 0.264746, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [11.030930, 8.045640, 6.562496, 4.112298, 3.608743, 2.690869, 2.502061, 2.092618, 1.978645, 1.870447, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_14_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [10.471214, 9.507454, 7.916342, 3.832272, 3.433132, 2.250227, 2.146371, 2.077142, 1.967637, 1.932715, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_14_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [24.993958, 5.780721, 1.847133, 1.445936, 1.297021, 0.817225, 0.794924, 0.749531, 0.713821, 0.676348, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [19.747545, 5.382409, 1.512891, 1.419228, 0.920408, 0.538429, 0.458423, 0.391766, 0.353410, 0.304544, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.947924, 6.577147, 2.924257, 2.055907, 1.570647, 1.279159, 1.111314, 0.963669, 0.881955, 0.813545, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.537684, 3.641311, 1.658069, 1.440383, 0.901888, 0.776802, 0.516513, 0.468583, 0.341201, 0.301092, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [15.458643, 4.307810, 1.670077, 1.387225, 1.013219, 0.825103, 0.762010, 0.691565, 0.674971, 0.654177, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_14_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [18.405384, 4.261241, 1.427128, 1.067762, 0.808224, 0.589187, 0.408535, 0.331639, 0.298467, 0.271455, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.306791, 3.809622, 3.434139, 1.879723, 1.169172, 1.077566, 0.959761, 0.891029, 0.833224, 0.808756, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.040191, 2.888917, 2.359686, 1.281492, 0.759946, 0.616044, 0.550213, 0.462760, 0.403807, 0.314614, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [10.783151, 9.923802, 7.790493, 4.464972, 3.764366, 3.301569, 2.420493, 2.016683, 1.722213, 1.655042, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_15_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [10.371595, 8.983247, 8.922276, 4.250503, 3.459521, 3.314579, 2.214757, 1.776251, 1.612711, 1.511750, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_15_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [29.849304, 7.427476, 2.906712, 1.794135, 1.063409, 0.776696, 0.745119, 0.704966, 0.698296, 0.688299, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [20.371456, 5.734056, 2.056363, 1.087493, 0.770421, 0.443967, 0.364887, 0.341286, 0.315972, 0.268488, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [18.028078, 7.920032, 4.390999, 3.579297, 2.293210, 1.642805, 1.471331, 1.442699, 1.178670, 0.999422, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.217846, 4.427611, 2.648818, 2.208201, 1.409935, 0.889770, 0.827039, 0.792411, 0.565815, 0.485985, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [15.306862, 5.415403, 2.573321, 1.554982, 1.307954, 1.078903, 0.828838, 0.721788, 0.699918, 0.679182, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_15_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [17.977119, 4.992139, 2.463846, 1.260479, 1.108574, 0.796551, 0.489091, 0.375986, 0.349571, 0.312091, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.030094, 3.046216, 1.598495, 1.243085, 1.070406, 0.931560, 0.869659, 0.830742, 0.791273, 0.745956, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.461009, 2.229207, 1.192660, 0.684695, 0.632106, 0.486093, 0.415916, 0.321022, 0.309200, 0.268761, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [13.489957, 10.617788, 8.026532, 6.266051, 5.405414, 5.321168, 4.011199, 3.248018, 2.423116, 2.108234, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_16_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [11.226563, 9.390334, 8.660773, 5.423421, 4.187232, 3.724953, 3.278900, 2.776361, 1.956189, 1.398691, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_16_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [34.634136, 14.086868, 4.775819, 3.416704, 2.210314, 1.683042, 1.206989, 1.004336, 0.908094, 0.862687, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [20.591867, 8.060231, 2.969500, 2.664410, 1.391875, 1.142489, 0.935504, 0.568408, 0.544303, 0.488347, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.344090, 11.939291, 3.456671, 3.068302, 2.390032, 2.085618, 1.893902, 1.488031, 1.331025, 1.123592, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.030199, 6.516959, 2.144230, 1.814318, 1.400500, 1.124718, 0.970822, 0.674210, 0.619147, 0.567743, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.028997, 8.340798, 3.525155, 2.863273, 1.598897, 1.298916, 1.141842, 0.960858, 0.873056, 0.846390, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_16_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [17.238865, 7.553794, 3.071227, 2.500112, 1.455423, 1.010295, 0.729099, 0.638099, 0.563386, 0.496587, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.152137, 5.623156, 3.922784, 2.991680, 1.370660, 1.291573, 1.077578, 1.059056, 0.923694, 0.814016, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.691706, 3.530214, 2.230213, 1.639518, 0.641506, 0.579039, 0.508634, 0.412908, 0.401390, 0.322017, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [14.181599, 11.278372, 9.069020, 7.770927, 4.003134, 3.426018, 3.250473, 2.545793, 2.129259, 1.990046, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_17_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [11.285275, 9.991621, 9.168696, 6.760144, 3.694119, 3.392913, 2.852626, 2.321374, 1.619153, 1.602434, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_17_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [38.516975, 12.315734, 5.794873, 3.307549, 2.304695, 1.281945, 1.092727, 1.049582, 0.981038, 0.899401, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [21.272654, 6.272290, 3.286033, 1.684215, 1.345059, 0.926511, 0.677350, 0.520440, 0.459579, 0.407424, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.122015, 11.596859, 5.457338, 3.589643, 2.791785, 2.288931, 2.063862, 1.721540, 1.567956, 1.443030, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.205840, 5.884437, 2.872014, 2.017858, 1.512527, 1.177861, 1.010583, 0.868853, 0.759507, 0.640374, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [18.571499, 6.279146, 6.017516, 2.225807, 1.899567, 1.207614, 1.053061, 0.963647, 0.854631, 0.813068, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_17_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [18.051310, 4.978535, 4.789470, 1.675174, 1.175905, 0.855308, 0.707193, 0.513784, 0.444087, 0.338384, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [13.618010, 8.276472, 5.613461, 1.994775, 1.806078, 1.610831, 1.237159, 1.201671, 1.064216, 1.022733, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.017204, 4.021813, 2.699639, 1.017983, 0.811220, 0.714396, 0.606061, 0.525854, 0.475023, 0.437834, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [16.482008, 12.899712, 10.251989, 7.308764, 4.870141, 3.375345, 2.812430, 2.341372, 1.774410, 1.643296, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_18_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [12.980845, 10.881894, 9.705621, 5.817458, 3.726558, 2.281976, 1.565382, 1.419602, 1.238097, 1.235607, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_18_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [39.583462, 14.442382, 6.273186, 4.224106, 3.415968, 2.088258, 1.421465, 1.236689, 1.041738, 1.010491, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [21.400734, 6.373629, 4.306783, 2.286290, 1.764873, 1.189981, 1.003435, 0.773501, 0.509973, 0.459609, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.337200, 14.211934, 8.443654, 3.953611, 3.696366, 2.763286, 2.291137, 2.071324, 1.889595, 1.716894, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.140099, 6.608731, 4.429106, 2.087321, 1.754195, 1.238546, 1.147353, 0.957135, 0.922918, 0.792702, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.985814, 5.248377, 4.624953, 2.387269, 2.181483, 1.634970, 1.399320, 1.157880, 1.067622, 0.992193, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_18_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [16.957918, 5.063251, 4.118203, 1.859450, 1.598927, 1.217698, 0.972640, 0.773175, 0.627089, 0.537512, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.397758, 7.716356, 7.433339, 2.917706, 2.565423, 1.713691, 1.675112, 1.463670, 1.419545, 1.248060, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.610913, 4.441567, 4.324146, 1.533067, 1.340009, 1.045990, 0.897370, 0.728056, 0.690235, 0.539504, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [18.477119, 13.619226, 9.622643, 8.727935, 5.904437, 5.452775, 4.265641, 3.556350, 3.172088, 2.905517, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_19_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.719775, 10.788113, 10.124072, 6.933273, 3.991546, 3.303621, 2.828496, 2.291682, 1.979951, 1.951880, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_19_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [44.391716, 11.315557, 7.259889, 6.018802, 3.192972, 3.043556, 1.856988, 1.385481, 1.213188, 1.060516, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [22.304600, 5.653575, 3.214794, 2.623945, 1.538684, 1.177394, 0.897205, 0.651183, 0.585006, 0.451851, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [18.278605, 15.618243, 7.742866, 7.072764, 4.524518, 3.746563, 3.159744, 2.786761, 2.273787, 1.929520, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.134283, 6.713320, 4.183878, 3.513810, 2.233857, 1.848194, 1.591625, 1.421572, 1.047718, 0.930585, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.213024, 7.025323, 3.096425, 2.604310, 1.717171, 1.287940, 1.164332, 1.052337, 0.967516, 0.907518, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_19_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [17.904854, 4.839931, 1.993554, 1.491010, 0.950445, 0.662539, 0.563177, 0.480859, 0.437460, 0.359766, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.674289, 2.043847, 0.900950, 0.803746, 0.647457, 0.628868, 0.615535, 0.611360, 0.597603, 0.593041, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [4.524520, 1.368207, 0.520059, 0.304411, 0.263687, 0.192388, 0.160259, 0.152752, 0.097403, 0.090518, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [6.995003, 4.858048, 2.478957, 1.595052, 1.367046, 1.115724, 1.012683, 0.907119, 0.817034, 0.791571, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_1_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [6.644189, 5.774105, 4.922827, 2.310266, 2.068649, 1.417375, 1.416991, 1.241429, 1.045551, 1.028726, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_1_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [12.059706, 1.082305, 0.784140, 0.713697, 0.657546, 0.644531, 0.638223, 0.627935, 0.623324, 0.617403, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.024386, 1.057703, 0.791076, 0.360195, 0.318603, 0.307906, 0.280629, 0.237991, 0.228007, 0.207760, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.060617, 5.200192, 1.820544, 1.308533, 1.051927, 0.995401, 0.797850, 0.785626, 0.759564, 0.719260, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [5.558498, 3.095836, 1.330465, 1.003821, 0.567896, 0.504066, 0.413912, 0.379669, 0.303701, 0.267581, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.542523, 1.195337, 0.805369, 0.732037, 0.668292, 0.650132, 0.628892, 0.623963, 0.613828, 0.608761, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_1_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [13.552367, 1.671930, 0.579706, 0.363341, 0.347836, 0.265711, 0.240691, 0.217724, 0.194150, 0.191017, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.595883, 5.592165, 3.877552, 3.314445, 2.423232, 2.240759, 1.755227, 1.328045, 1.210078, 1.146942, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.838184, 2.911779, 2.074515, 1.743505, 1.274113, 1.087113, 0.765571, 0.630521, 0.591203, 0.538582, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [17.797348, 12.758655, 10.105564, 7.644094, 7.264561, 6.170251, 5.303831, 5.162649, 4.313386, 3.846059, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_20_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [12.997458, 11.892653, 8.707828, 5.381931, 5.096086, 3.988655, 3.635706, 3.441132, 2.836401, 2.759557, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_20_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [44.427700, 13.392964, 10.049368, 7.511351, 4.451244, 3.144314, 2.299492, 1.914059, 1.532133, 1.369607, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [22.458061, 5.941787, 3.687210, 2.915111, 1.842790, 1.652359, 0.970496, 0.703632, 0.593184, 0.584817, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [22.427931, 10.618616, 10.094070, 8.024458, 6.343209, 5.244607, 4.252088, 3.168842, 2.775697, 2.562486, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.862038, 4.524978, 4.246806, 3.536657, 2.623878, 2.506124, 1.839909, 1.402606, 1.162394, 1.091761, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [21.409981, 7.583611, 5.812277, 4.216064, 2.885241, 2.421818, 1.526922, 1.444713, 1.282262, 1.219046, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_20_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [18.386490, 4.834610, 3.746516, 2.384321, 1.852367, 1.112343, 0.700456, 0.653139, 0.608352, 0.542646, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.147049, 6.852279, 6.169222, 3.030440, 2.492383, 1.884246, 1.720250, 1.654418, 1.470101, 1.375778, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.014931, 3.693983, 3.132259, 1.457423, 1.369610, 1.084178, 0.881838, 0.809790, 0.748688, 0.636980, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [20.166054, 15.679244, 10.782606, 8.768373, 7.558444, 7.273923, 6.105532, 5.806313, 4.995263, 3.992725, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_21_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.432755, 12.788126, 10.228338, 5.342355, 5.207399, 4.966932, 3.594879, 3.293348, 2.793915, 2.747713, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_21_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [43.420441, 7.952999, 6.769398, 4.123690, 3.340807, 2.528709, 2.023634, 1.922991, 1.730213, 1.354856, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [23.027843, 3.417180, 2.092036, 1.351454, 1.251161, 0.783030, 0.747166, 0.588668, 0.543840, 0.402591, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [24.206085, 14.890932, 12.268690, 9.546916, 9.362259, 7.556479, 6.103566, 5.675451, 5.031397, 3.784130, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.063861, 5.618317, 4.753033, 3.697264, 3.434634, 2.714348, 2.420020, 2.288562, 1.895842, 1.494771, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [26.618191, 7.329720, 6.749185, 4.121877, 2.907157, 2.548408, 2.022754, 1.696555, 1.587326, 1.380905, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_21_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [19.601055, 3.705834, 3.181825, 2.082566, 1.247017, 1.171257, 0.760400, 0.612577, 0.591953, 0.533565, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.080641, 10.079105, 6.186226, 4.563130, 3.683596, 3.325410, 2.593822, 1.949428, 1.777906, 1.634266, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.186928, 4.968617, 3.043436, 2.091117, 1.808473, 1.568852, 1.272776, 1.098740, 0.844907, 0.672580, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [18.399008, 15.334247, 11.183882, 10.497457, 8.450336, 7.066301, 6.755804, 5.555374, 5.070033, 3.806138, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_22_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [12.797734, 12.461012, 10.333369, 6.946153, 6.025302, 4.389065, 3.976279, 3.158641, 2.990160, 2.900177, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_22_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [41.730732, 15.547269, 7.117914, 5.603796, 4.924038, 3.953918, 3.673791, 2.783894, 2.371038, 2.134641, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [22.944866, 5.286282, 2.783132, 1.721811, 1.618840, 1.502559, 1.030547, 0.804777, 0.693177, 0.598250, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [26.414391, 16.509853, 14.088142, 11.871926, 9.158097, 7.895521, 7.318059, 6.220708, 5.600972, 5.120050, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [11.304379, 6.631550, 5.453732, 4.757504, 3.444253, 3.166271, 2.873318, 2.352373, 2.007626, 1.956638, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [29.418671, 11.048950, 6.878316, 5.655669, 4.719698, 3.453112, 2.658331, 2.337607, 2.145995, 1.865850, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_22_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [20.628307, 6.188388, 2.358023, 2.093433, 1.807485, 1.173734, 0.961908, 0.804050, 0.727997, 0.591067, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [15.525784, 12.592169, 12.237675, 8.412057, 4.203848, 3.528749, 3.042896, 2.723555, 2.270557, 2.042503, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.533558, 6.871256, 6.611531, 3.734364, 2.052551, 1.650414, 1.435061, 1.243355, 1.155052, 0.882563, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [19.618256, 16.029516, 13.221374, 9.865646, 6.999880, 6.340120, 5.862623, 5.076468, 4.383850, 3.902346, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_23_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.677587, 13.632076, 10.617368, 6.968899, 4.193931, 3.954004, 3.522608, 2.812530, 2.408537, 2.306358, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_23_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [43.702007, 13.970461, 7.929168, 5.356828, 4.488400, 3.106694, 2.601106, 2.299686, 1.845722, 1.657172, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [23.190737, 4.443496, 2.835720, 1.959799, 1.280961, 0.914205, 0.838209, 0.646057, 0.575045, 0.529372, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [26.957140, 14.786468, 12.679901, 9.643888, 9.160876, 6.348918, 5.214036, 4.902840, 4.134026, 3.914634, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [13.001363, 6.489946, 5.307671, 4.445633, 4.046063, 2.852376, 2.594491, 2.227141, 1.982503, 1.872502, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [29.033529, 13.330022, 9.091928, 7.406522, 4.032556, 3.751618, 3.005620, 2.491430, 1.907250, 1.781238, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_23_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [20.711596, 6.327857, 4.245871, 3.043931, 1.616931, 1.364033, 1.163545, 0.997073, 0.778721, 0.651126, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.702803, 10.304591, 7.073213, 4.574458, 3.934556, 3.356104, 3.105534, 2.358927, 2.228634, 1.814379, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.522452, 5.424189, 3.746144, 2.209971, 1.632488, 1.485275, 1.275791, 1.081783, 0.918622, 0.801731, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [21.318214, 16.293352, 14.528230, 11.871313, 9.362445, 7.313321, 5.173153, 4.925057, 3.843501, 3.154235, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_24_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.679809, 13.596673, 11.351041, 8.368459, 6.084171, 3.405098, 2.627301, 2.380281, 2.313134, 1.987126, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_24_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [42.268894, 8.837115, 7.684463, 3.257387, 2.688978, 2.073306, 1.930345, 1.605090, 1.199074, 1.184799, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [23.517492, 3.219474, 2.123294, 1.477699, 0.923932, 0.701908, 0.607349, 0.518515, 0.365742, 0.355688, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [28.867895, 10.180253, 10.142214, 8.484824, 7.736862, 6.158275, 5.527165, 3.896208, 2.855454, 2.680995, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [12.187078, 4.586086, 3.868995, 3.551998, 3.237704, 2.545540, 2.178718, 1.773377, 1.191295, 1.075571, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [27.008184, 9.953316, 4.176218, 3.177937, 2.437998, 1.772141, 1.470796, 1.279315, 1.146058, 1.060840, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_24_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [21.319860, 5.560561, 1.773494, 1.433272, 1.012914, 0.664665, 0.564347, 0.463504, 0.434437, 0.378627, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.131315, 9.886850, 5.172163, 4.389873, 3.485848, 3.271027, 2.557510, 2.052307, 1.760756, 1.539190, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.072440, 6.217607, 3.244248, 2.797246, 1.980496, 1.720295, 1.528652, 1.048602, 1.037381, 0.973555, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [20.956488, 13.528816, 13.084601, 9.926011, 8.571375, 7.531125, 6.273175, 5.881123, 4.524112, 4.424659, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_25_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [14.235420, 12.706233, 10.498684, 8.489107, 4.824423, 3.993831, 3.628850, 3.365761, 2.981646, 2.813646, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_25_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [35.136238, 15.883976, 5.303115, 3.503607, 2.577385, 2.298069, 1.788552, 1.486971, 1.204467, 1.036056, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [22.474745, 6.689212, 1.989587, 1.535429, 1.398927, 1.059239, 0.757566, 0.667123, 0.506702, 0.467923, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [27.893785, 13.703595, 10.562502, 8.145127, 6.634592, 5.489218, 4.479939, 4.033139, 3.307955, 2.508518, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.081690, 5.543460, 3.906975, 3.243656, 2.380427, 2.129332, 1.817311, 1.740751, 1.295058, 1.100962, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [21.209532, 10.338214, 5.827889, 4.251798, 2.863573, 2.491622, 1.957770, 1.775397, 1.585619, 1.302121, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_25_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [18.879801, 7.604339, 3.714176, 2.446658, 1.814232, 1.424467, 1.247399, 1.115566, 0.864797, 0.770714, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [13.579226, 7.823235, 4.556418, 3.232411, 2.980622, 2.397540, 2.146475, 1.777402, 1.516947, 1.331326, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.227376, 4.612350, 2.284922, 2.006541, 1.558918, 1.393824, 1.118029, 0.979494, 0.810449, 0.670868, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [17.685574, 15.308636, 13.837127, 11.310204, 8.693498, 6.789257, 5.663825, 3.323832, 3.172062, 2.903751, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_26_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.392759, 12.223318, 11.551445, 9.885109, 5.732125, 3.886900, 2.907882, 2.552455, 1.892588, 1.710862, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_26_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [35.244461, 12.721063, 7.210191, 2.486681, 1.780766, 1.591092, 1.471326, 1.181202, 1.113861, 1.069075, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [24.542776, 6.136435, 3.564836, 1.089603, 0.785467, 0.651636, 0.566107, 0.489334, 0.440034, 0.385976, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [28.709612, 11.238155, 8.278556, 7.273051, 5.107779, 3.952538, 3.263958, 2.603008, 2.443402, 2.326189, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.391954, 4.124981, 3.173362, 2.900246, 1.935267, 1.489054, 1.249425, 1.072116, 0.951024, 0.850072, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [23.851074, 7.081021, 4.614403, 2.809545, 2.699401, 1.991433, 1.537125, 1.368195, 1.236667, 1.204122, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_26_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [22.082848, 5.365845, 3.008696, 1.814854, 1.307231, 1.114070, 0.876480, 0.690979, 0.611076, 0.583211, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.111010, 11.137892, 5.885808, 4.871614, 4.490182, 3.126253, 2.554444, 2.269752, 1.936505, 1.774656, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.770919, 6.888439, 3.064871, 2.781650, 2.558597, 1.558619, 1.202113, 1.093880, 0.918936, 0.871690, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [17.956057, 17.417103, 16.356441, 13.236006, 10.694060, 9.785281, 7.418957, 6.482877, 5.483956, 4.955213, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_27_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [12.672709, 12.670218, 11.705297, 10.805190, 7.881673, 6.109760, 5.733824, 4.403948, 4.096506, 2.954232, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_27_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [40.344299, 11.421400, 5.389964, 3.375915, 2.961164, 2.408960, 2.052507, 1.753293, 1.549797, 1.351618, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [26.383257, 3.942398, 1.894822, 1.200063, 1.005981, 0.787830, 0.662673, 0.568278, 0.501629, 0.473435, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [33.235958, 16.049831, 14.008379, 11.461756, 8.402318, 8.115586, 3.819835, 3.470535, 3.438424, 2.984428, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.834761, 5.371801, 4.555835, 4.003246, 2.727201, 2.637691, 1.395387, 1.195520, 1.145679, 1.009647, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [31.908417, 15.993471, 8.054912, 7.497089, 5.705631, 4.707463, 4.376012, 3.808670, 2.938626, 2.892511, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_27_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [26.741318, 11.132696, 5.200081, 4.525889, 3.055193, 2.435189, 2.286701, 1.870856, 1.700480, 1.440158, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [16.013634, 4.201759, 2.579893, 1.894377, 1.570118, 1.378159, 1.020637, 0.920456, 0.873200, 0.801263, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.117983, 2.524996, 1.416968, 1.049200, 0.907222, 0.684098, 0.482931, 0.439509, 0.381268, 0.320147, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [19.604467, 17.943909, 13.651484, 9.953726, 6.688489, 4.001041, 3.521717, 2.948321, 2.531727, 2.437825, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_28_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [13.862145, 12.351902, 10.884276, 7.942299, 3.930988, 2.047392, 1.749806, 1.524412, 1.409020, 1.117103, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_28_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [40.511593, 14.842500, 8.716962, 4.974354, 4.074344, 3.374288, 2.252087, 2.053306, 1.663326, 1.382771, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [27.828123, 6.469715, 2.982316, 2.094584, 1.368023, 1.219353, 0.855545, 0.656432, 0.540031, 0.408642, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [31.102623, 20.050684, 14.867455, 13.651382, 9.989197, 7.127274, 6.116748, 5.481683, 4.982251, 4.129607, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.402054, 11.626448, 7.869446, 7.042215, 5.382633, 4.263811, 3.409636, 3.334607, 2.830956, 2.355594, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [26.694780, 14.525298, 12.306409, 7.913830, 6.395157, 5.714683, 4.247587, 2.947509, 2.817395, 2.627964, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_28_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [24.337311, 8.878262, 7.549448, 4.115430, 3.652405, 3.243621, 2.558912, 1.507219, 1.396645, 1.223293, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.499902, 7.670088, 4.493820, 4.324843, 3.618893, 2.807224, 2.551735, 2.392707, 2.117832, 1.960594, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.352619, 7.246811, 4.409871, 3.960872, 3.300071, 2.732112, 2.637603, 2.365045, 2.019563, 1.875010, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [21.712925, 20.877707, 18.441401, 13.793933, 9.506260, 8.212799, 7.585605, 7.061584, 6.704999, 5.950949, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_29_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [15.302374, 14.576769, 14.105968, 7.626971, 5.660236, 5.455464, 5.382450, 4.935079, 4.399854, 4.036189, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_29_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [40.047913, 33.873547, 22.199739, 18.037861, 9.911426, 7.288429, 5.662590, 4.343321, 3.959521, 2.746951, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [23.924967, 12.807304, 7.307899, 6.861963, 2.819057, 2.438499, 1.879184, 1.556274, 1.284118, 1.266057, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [17.431017, 14.247784, 8.055446, 6.515869, 5.023618, 3.953719, 3.481074, 2.724105, 2.310042, 2.236800, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [10.104610, 8.003459, 5.825473, 3.777090, 3.013041, 2.534546, 2.378160, 1.907751, 1.493864, 1.455329, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [25.606539, 18.644196, 15.784872, 12.356171, 8.263812, 7.711479, 6.248741, 5.847829, 4.936220, 4.400095, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_29_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [25.988375, 18.709875, 11.463948, 7.070018, 4.364151, 4.004691, 3.351789, 3.087338, 2.833749, 2.428815, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [8.241598, 0.961509, 0.647332, 0.632246, 0.610673, 0.603857, 0.600905, 0.598923, 0.593699, 0.591087, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.098919, 0.744861, 0.378758, 0.206417, 0.160222, 0.151734, 0.138551, 0.105301, 0.091077, 0.084610, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [7.476484, 3.887096, 3.271203, 2.372175, 2.102762, 1.788311, 1.720879, 1.669582, 1.468574, 1.328054, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_2_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [7.894311, 5.001290, 4.902371, 4.026314, 2.508094, 2.334584, 2.326918, 2.144914, 1.938510, 1.845692, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_2_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.058276, 3.596483, 2.455618, 1.476147, 1.256165, 1.164456, 1.019502, 0.902748, 0.836253, 0.807566, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [14.364311, 4.560078, 2.959461, 1.934173, 1.508473, 1.231149, 1.045293, 0.917889, 0.899454, 0.719888, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [8.691628, 3.456569, 2.754736, 1.846523, 1.320067, 1.124410, 0.959489, 0.863494, 0.792909, 0.740282, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [6.709563, 3.175810, 1.942363, 1.535785, 0.917105, 0.682574, 0.548574, 0.461299, 0.381438, 0.328755, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.363452, 2.966440, 1.531004, 1.179323, 1.052766, 0.965940, 0.838698, 0.778896, 0.753545, 0.709006, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_2_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [13.432986, 3.728912, 1.833547, 1.460883, 1.010418, 0.825824, 0.741594, 0.638398, 0.549199, 0.510603, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.066123, 1.360340, 0.868141, 0.691097, 0.667512, 0.632286, 0.617589, 0.607995, 0.598332, 0.597000, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.098960, 0.849593, 0.626528, 0.240535, 0.192121, 0.154721, 0.136374, 0.105413, 0.098451, 0.094215, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [5.490274, 3.952150, 3.342361, 1.593845, 1.332136, 1.150936, 0.983435, 0.897198, 0.813293, 0.797403, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_3_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [7.027146, 6.976036, 6.118944, 2.510799, 2.363084, 2.008241, 1.569650, 1.425029, 1.219200, 0.944340, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_3_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.854236, 2.338506, 1.961452, 1.096960, 0.784969, 0.724233, 0.675151, 0.647359, 0.634474, 0.629792, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [14.505453, 2.984529, 2.453622, 0.923568, 0.623033, 0.511181, 0.421975, 0.341377, 0.318484, 0.304124, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.491138, 2.495752, 1.251135, 1.029309, 0.881729, 0.869625, 0.699872, 0.672256, 0.662887, 0.651267, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.549029, 2.527603, 0.735289, 0.545435, 0.525368, 0.459030, 0.261331, 0.243293, 0.211236, 0.193009, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.627970, 3.007620, 1.361023, 0.969020, 0.807531, 0.800848, 0.745654, 0.691736, 0.678260, 0.649380, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_3_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [11.768970, 3.788733, 1.528889, 0.884955, 0.771068, 0.684093, 0.544106, 0.490156, 0.448638, 0.391237, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.537972, 1.231071, 0.984652, 0.822519, 0.658776, 0.646465, 0.629303, 0.617877, 0.609618, 0.603451, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [6.391212, 0.810840, 0.517096, 0.451434, 0.228028, 0.199301, 0.160829, 0.152974, 0.140941, 0.125884, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [4.890352, 3.464389, 2.797767, 2.470078, 2.291177, 1.721872, 1.401641, 1.329730, 1.280460, 1.141188, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_4_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [7.085288, 6.000175, 5.241772, 3.816442, 3.464185, 2.632628, 2.591604, 2.388285, 2.066802, 1.949276, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_4_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.029928, 2.381932, 1.881069, 1.308486, 1.046421, 0.911233, 0.875617, 0.823476, 0.792554, 0.721398, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.247049, 3.022544, 2.073683, 1.401734, 1.104396, 0.864639, 0.726155, 0.678350, 0.551730, 0.466729, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [8.639289, 4.688283, 2.685663, 1.925378, 1.805238, 1.246140, 1.158725, 1.074396, 0.985660, 0.964439, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [6.840328, 3.724973, 2.488307, 1.592581, 1.318169, 0.879017, 0.830425, 0.758977, 0.607700, 0.587792, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.787307, 2.032891, 1.580918, 1.282096, 1.064250, 0.894057, 0.780300, 0.735147, 0.703518, 0.688291, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_4_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [12.421793, 2.838399, 2.003611, 1.375156, 1.215200, 0.772307, 0.724816, 0.563157, 0.450928, 0.370967, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.967395, 1.376271, 1.178720, 1.003720, 0.750611, 0.742283, 0.697785, 0.665434, 0.656647, 0.644982, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.662555, 1.112508, 0.655654, 0.481959, 0.392702, 0.357760, 0.271941, 0.260066, 0.232094, 0.202742, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [6.378593, 5.434857, 3.622565, 2.123774, 2.026040, 1.801743, 1.638917, 1.519786, 1.477047, 1.312831, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_5_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [8.200648, 7.566878, 5.990103, 2.927369, 2.357116, 1.962726, 1.837986, 1.736127, 1.690690, 1.596797, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_5_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.681684, 3.620296, 1.789206, 1.370448, 1.160652, 0.932883, 0.840634, 0.785866, 0.754467, 0.729945, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.595925, 4.976384, 2.062177, 1.748507, 1.562882, 0.932384, 0.856118, 0.726411, 0.673404, 0.595456, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.670674, 4.104456, 3.644482, 2.747204, 1.925085, 1.137557, 1.092049, 1.018782, 0.953672, 0.892652, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.067873, 3.189689, 2.669409, 2.330291, 1.513309, 0.607814, 0.581645, 0.539507, 0.444927, 0.437849, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.534774, 3.433742, 2.715727, 2.000558, 1.468159, 1.307582, 1.140447, 1.103922, 0.973947, 0.928276, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_5_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [11.797427, 4.598867, 3.715517, 2.661668, 1.930924, 1.694077, 1.164831, 1.090089, 0.993108, 0.943686, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.674510, 1.667752, 1.236583, 1.036407, 0.776186, 0.655603, 0.649923, 0.644694, 0.625501, 0.619751, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [7.239745, 2.014277, 1.179333, 0.731619, 0.344922, 0.246443, 0.223888, 0.205408, 0.165131, 0.162610, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [6.889489, 5.930256, 4.639465, 3.404210, 3.027471, 2.059252, 1.993368, 1.824730, 1.730353, 1.545576, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_6_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [9.410632, 6.146085, 5.640252, 4.838439, 3.737549, 2.611137, 2.504079, 2.497488, 2.301383, 1.626345, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_6_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.107456, 2.363793, 1.540097, 1.119833, 0.979033, 0.874540, 0.788329, 0.753134, 0.721397, 0.697194, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [17.023533, 2.179054, 1.713457, 0.937531, 0.889099, 0.694071, 0.601581, 0.559030, 0.472464, 0.431666, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [12.235913, 2.905870, 1.328411, 1.009600, 0.857376, 0.742319, 0.729325, 0.691992, 0.675632, 0.668450, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.844551, 2.049745, 1.221180, 0.456751, 0.287820, 0.239131, 0.220930, 0.190903, 0.178732, 0.156560, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.502796, 1.924346, 1.525164, 1.109614, 1.053617, 0.909941, 0.811290, 0.758493, 0.743478, 0.720737, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_6_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.176624, 2.576011, 1.412109, 1.117662, 0.848001, 0.762847, 0.644950, 0.585860, 0.517157, 0.471160, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [5.348050, 3.398371, 2.026022, 1.813178, 1.229890, 1.061525, 1.017760, 0.855552, 0.799636, 0.760221, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [5.270267, 3.375719, 1.917155, 1.454857, 0.944519, 0.763315, 0.647628, 0.556484, 0.441567, 0.422164, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [5.731522, 4.870219, 3.581996, 2.927846, 2.507849, 2.262215, 2.042458, 1.834387, 1.652604, 1.501719, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_7_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [7.062332, 6.847908, 5.160654, 4.358613, 3.687044, 3.270230, 2.633472, 2.575793, 2.381284, 2.114850, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_7_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [12.932180, 1.356593, 1.307952, 1.019574, 0.906214, 0.811533, 0.754584, 0.738378, 0.717457, 0.700243, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [16.864376, 1.317698, 1.036978, 0.908022, 0.624544, 0.560919, 0.524285, 0.476063, 0.422515, 0.402245, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [14.232869, 1.757657, 1.225924, 1.014546, 0.876017, 0.816666, 0.792637, 0.751625, 0.736090, 0.696523, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.718887, 1.064438, 0.726165, 0.340178, 0.275932, 0.211884, 0.189505, 0.175312, 0.167148, 0.152623, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.301348, 3.655708, 2.606410, 1.752859, 1.557469, 1.452621, 1.364561, 1.143155, 1.024842, 0.980421, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_7_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [12.036898, 5.514468, 4.117280, 2.305201, 2.119949, 1.744349, 1.637112, 1.418430, 1.166151, 1.119734, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [11.458025, 1.987626, 1.643926, 1.439348, 1.102278, 1.035537, 0.868824, 0.793463, 0.720326, 0.684404, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.189515, 1.671499, 1.463969, 0.978418, 0.776608, 0.585899, 0.411097, 0.340340, 0.296466, 0.252613, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [6.746143, 5.662820, 4.918452, 3.770876, 3.654555, 3.255836, 2.666999, 2.005119, 1.733981, 1.651343, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_8_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [8.437222, 7.447523, 6.444092, 4.718179, 3.996031, 3.741556, 3.058524, 2.203387, 1.817466, 1.728477, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_8_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [8.770359, 2.963600, 2.089345, 1.813187, 1.386088, 1.306214, 1.192252, 1.069059, 1.007453, 0.955307, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [14.512252, 4.690029, 2.468083, 2.075063, 1.613006, 1.365695, 1.191265, 1.057289, 0.999996, 0.931083, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [10.503954, 5.319335, 2.505115, 1.982033, 1.430648, 1.312767, 1.204607, 1.051755, 0.970611, 0.915815, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [8.563920, 2.938244, 2.111707, 1.208150, 0.807097, 0.747095, 0.590661, 0.511096, 0.459567, 0.377453, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [6.516605, 3.486874, 2.275130, 1.689843, 1.618505, 1.402135, 1.221296, 1.040160, 1.023001, 0.954583, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_8_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [12.067918, 5.329484, 2.921192, 2.021223, 1.913398, 1.444998, 1.380455, 1.279459, 1.161370, 0.985769, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_attention_out.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.052363, 2.047789, 1.606825, 1.195482, 1.044182, 0.874451, 0.823539, 0.757571, 0.744848, 0.690656, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_attention_out.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.770391, 1.793870, 1.482597, 1.024490, 0.767254, 0.527450, 0.376828, 0.336976, 0.289231, 0.270984, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_attention_qkv.lora_down.weight:
+  shape: torch.Size([96, 3840])
+  dtype: torch.float32
+  parameters: 368640
+  inferred_rank: 96
+  type: lora_down
+  rank: 96
+  singular_values: [8.826838, 6.920420, 6.451290, 3.880859, 2.619828, 2.441458, 2.136412, 1.847496, 1.768841, 1.622730, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_9_attention_qkv.lora_up.weight:
+  shape: torch.Size([11520, 96])
+  dtype: torch.float32
+  parameters: 1105920
+  inferred_rank: 96
+  type: lora_up
+  rank: 96
+  singular_values: [8.919044, 8.787976, 8.061652, 4.291464, 2.485411, 2.429130, 2.322230, 1.837439, 1.652190, 1.632984, ... (96 total)]
+  full_rank: 96
+
+lora_unet_layers_9_feed_forward_w1.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [9.433151, 2.895021, 2.501757, 1.823493, 1.605712, 1.355784, 1.237765, 1.118897, 0.985144, 0.956188, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_feed_forward_w1.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [15.281021, 3.591987, 3.258002, 1.828705, 1.600787, 1.493402, 1.172004, 1.111912, 0.971174, 0.919824, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_feed_forward_w2.lora_down.weight:
+  shape: torch.Size([32, 10240])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [13.901046, 1.500405, 1.156119, 1.000057, 0.860336, 0.795745, 0.732502, 0.691045, 0.672652, 0.656705, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_feed_forward_w2.lora_up.weight:
+  shape: torch.Size([3840, 32])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [9.361623, 0.949914, 0.545777, 0.364415, 0.313644, 0.205097, 0.182003, 0.134919, 0.133063, 0.123602, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_feed_forward_w3.lora_down.weight:
+  shape: torch.Size([32, 3840])
+  dtype: torch.float32
+  parameters: 122880
+  inferred_rank: 32
+  type: lora_down
+  rank: 32
+  singular_values: [7.962372, 2.761500, 2.455877, 2.146325, 1.753627, 1.616907, 1.273247, 1.208823, 1.065502, 1.032325, ... (32 total)]
+  full_rank: 32
+
+lora_unet_layers_9_feed_forward_w3.lora_up.weight:
+  shape: torch.Size([10240, 32])
+  dtype: torch.float32
+  parameters: 327680
+  inferred_rank: 32
+  type: lora_up
+  rank: 32
+  singular_values: [14.219319, 4.190811, 3.272895, 2.279221, 1.890214, 1.541649, 1.295897, 1.227164, 1.070421, 0.962863, ... (32 total)]
+  full_rank: 32
+
+================================================================================
+LAYER STRUCTURE ANALYSIS
+================================================================================
+No standard layer structure found.
+
+All unique key prefixes:
+  lora_unet_layers_0_attention_out: 3 keys
+  lora_unet_layers_0_attention_qkv: 3 keys
+  lora_unet_layers_0_feed_forward_w1: 3 keys
+  lora_unet_layers_0_feed_forward_w2: 3 keys
+  lora_unet_layers_0_feed_forward_w3: 3 keys
+  lora_unet_layers_10_attention_out: 3 keys
+  lora_unet_layers_10_attention_qkv: 3 keys
+  lora_unet_layers_10_feed_forward_w1: 3 keys
+  lora_unet_layers_10_feed_forward_w2: 3 keys
+  lora_unet_layers_10_feed_forward_w3: 3 keys
+  lora_unet_layers_11_attention_out: 3 keys
+  lora_unet_layers_11_attention_qkv: 3 keys
+  lora_unet_layers_11_feed_forward_w1: 3 keys
+  lora_unet_layers_11_feed_forward_w2: 3 keys
+  lora_unet_layers_11_feed_forward_w3: 3 keys
+  lora_unet_layers_12_attention_out: 3 keys
+  lora_unet_layers_12_attention_qkv: 3 keys
+  lora_unet_layers_12_feed_forward_w1: 3 keys
+  lora_unet_layers_12_feed_forward_w2: 3 keys
+  lora_unet_layers_12_feed_forward_w3: 3 keys
+  lora_unet_layers_13_attention_out: 3 keys
+  lora_unet_layers_13_attention_qkv: 3 keys
+  lora_unet_layers_13_feed_forward_w1: 3 keys
+  lora_unet_layers_13_feed_forward_w2: 3 keys
+  lora_unet_layers_13_feed_forward_w3: 3 keys
+  lora_unet_layers_14_attention_out: 3 keys
+  lora_unet_layers_14_attention_qkv: 3 keys
+  lora_unet_layers_14_feed_forward_w1: 3 keys
+  lora_unet_layers_14_feed_forward_w2: 3 keys
+  lora_unet_layers_14_feed_forward_w3: 3 keys
+  lora_unet_layers_15_attention_out: 3 keys
+  lora_unet_layers_15_attention_qkv: 3 keys
+  lora_unet_layers_15_feed_forward_w1: 3 keys
+  lora_unet_layers_15_feed_forward_w2: 3 keys
+  lora_unet_layers_15_feed_forward_w3: 3 keys
+  lora_unet_layers_16_attention_out: 3 keys
+  lora_unet_layers_16_attention_qkv: 3 keys
+  lora_unet_layers_16_feed_forward_w1: 3 keys
+  lora_unet_layers_16_feed_forward_w2: 3 keys
+  lora_unet_layers_16_feed_forward_w3: 3 keys
+  lora_unet_layers_17_attention_out: 3 keys
+  lora_unet_layers_17_attention_qkv: 3 keys
+  lora_unet_layers_17_feed_forward_w1: 3 keys
+  lora_unet_layers_17_feed_forward_w2: 3 keys
+  lora_unet_layers_17_feed_forward_w3: 3 keys
+  lora_unet_layers_18_attention_out: 3 keys
+  lora_unet_layers_18_attention_qkv: 3 keys
+  lora_unet_layers_18_feed_forward_w1: 3 keys
+  lora_unet_layers_18_feed_forward_w2: 3 keys
+  lora_unet_layers_18_feed_forward_w3: 3 keys
+  lora_unet_layers_19_attention_out: 3 keys
+  lora_unet_layers_19_attention_qkv: 3 keys
+  lora_unet_layers_19_feed_forward_w1: 3 keys
+  lora_unet_layers_19_feed_forward_w2: 3 keys
+  lora_unet_layers_19_feed_forward_w3: 3 keys
+  lora_unet_layers_1_attention_out: 3 keys
+  lora_unet_layers_1_attention_qkv: 3 keys
+  lora_unet_layers_1_feed_forward_w1: 3 keys
+  lora_unet_layers_1_feed_forward_w2: 3 keys
+  lora_unet_layers_1_feed_forward_w3: 3 keys
+  lora_unet_layers_20_attention_out: 3 keys
+  lora_unet_layers_20_attention_qkv: 3 keys
+  lora_unet_layers_20_feed_forward_w1: 3 keys
+  lora_unet_layers_20_feed_forward_w2: 3 keys
+  lora_unet_layers_20_feed_forward_w3: 3 keys
+  lora_unet_layers_21_attention_out: 3 keys
+  lora_unet_layers_21_attention_qkv: 3 keys
+  lora_unet_layers_21_feed_forward_w1: 3 keys
+  lora_unet_layers_21_feed_forward_w2: 3 keys
+  lora_unet_layers_21_feed_forward_w3: 3 keys
+  lora_unet_layers_22_attention_out: 3 keys
+  lora_unet_layers_22_attention_qkv: 3 keys
+  lora_unet_layers_22_feed_forward_w1: 3 keys
+  lora_unet_layers_22_feed_forward_w2: 3 keys
+  lora_unet_layers_22_feed_forward_w3: 3 keys
+  lora_unet_layers_23_attention_out: 3 keys
+  lora_unet_layers_23_attention_qkv: 3 keys
+  lora_unet_layers_23_feed_forward_w1: 3 keys
+  lora_unet_layers_23_feed_forward_w2: 3 keys
+  lora_unet_layers_23_feed_forward_w3: 3 keys
+  lora_unet_layers_24_attention_out: 3 keys
+  lora_unet_layers_24_attention_qkv: 3 keys
+  lora_unet_layers_24_feed_forward_w1: 3 keys
+  lora_unet_layers_24_feed_forward_w2: 3 keys
+  lora_unet_layers_24_feed_forward_w3: 3 keys
+  lora_unet_layers_25_attention_out: 3 keys
+  lora_unet_layers_25_attention_qkv: 3 keys
+  lora_unet_layers_25_feed_forward_w1: 3 keys
+  lora_unet_layers_25_feed_forward_w2: 3 keys
+  lora_unet_layers_25_feed_forward_w3: 3 keys
+  lora_unet_layers_26_attention_out: 3 keys
+  lora_unet_layers_26_attention_qkv: 3 keys
+  lora_unet_layers_26_feed_forward_w1: 3 keys
+  lora_unet_layers_26_feed_forward_w2: 3 keys
+  lora_unet_layers_26_feed_forward_w3: 3 keys
+  lora_unet_layers_27_attention_out: 3 keys
+  lora_unet_layers_27_attention_qkv: 3 keys
+  lora_unet_layers_27_feed_forward_w1: 3 keys
+  lora_unet_layers_27_feed_forward_w2: 3 keys
+  lora_unet_layers_27_feed_forward_w3: 3 keys
+  lora_unet_layers_28_attention_out: 3 keys
+  lora_unet_layers_28_attention_qkv: 3 keys
+  lora_unet_layers_28_feed_forward_w1: 3 keys
+  lora_unet_layers_28_feed_forward_w2: 3 keys
+  lora_unet_layers_28_feed_forward_w3: 3 keys
+  lora_unet_layers_29_attention_out: 3 keys
+  lora_unet_layers_29_attention_qkv: 3 keys
+  lora_unet_layers_29_feed_forward_w1: 3 keys
+  lora_unet_layers_29_feed_forward_w2: 3 keys
+  lora_unet_layers_29_feed_forward_w3: 3 keys
+  lora_unet_layers_2_attention_out: 3 keys
+  lora_unet_layers_2_attention_qkv: 3 keys
+  lora_unet_layers_2_feed_forward_w1: 3 keys
+  lora_unet_layers_2_feed_forward_w2: 3 keys
+  lora_unet_layers_2_feed_forward_w3: 3 keys
+  lora_unet_layers_3_attention_out: 3 keys
+  lora_unet_layers_3_attention_qkv: 3 keys
+  lora_unet_layers_3_feed_forward_w1: 3 keys
+  lora_unet_layers_3_feed_forward_w2: 3 keys
+  lora_unet_layers_3_feed_forward_w3: 3 keys
+  lora_unet_layers_4_attention_out: 3 keys
+  lora_unet_layers_4_attention_qkv: 3 keys
+  lora_unet_layers_4_feed_forward_w1: 3 keys
+  lora_unet_layers_4_feed_forward_w2: 3 keys
+  lora_unet_layers_4_feed_forward_w3: 3 keys
+  lora_unet_layers_5_attention_out: 3 keys
+  lora_unet_layers_5_attention_qkv: 3 keys
+  lora_unet_layers_5_feed_forward_w1: 3 keys
+  lora_unet_layers_5_feed_forward_w2: 3 keys
+  lora_unet_layers_5_feed_forward_w3: 3 keys
+  lora_unet_layers_6_attention_out: 3 keys
+  lora_unet_layers_6_attention_qkv: 3 keys
+  lora_unet_layers_6_feed_forward_w1: 3 keys
+  lora_unet_layers_6_feed_forward_w2: 3 keys
+  lora_unet_layers_6_feed_forward_w3: 3 keys
+  lora_unet_layers_7_attention_out: 3 keys
+  lora_unet_layers_7_attention_qkv: 3 keys
+  lora_unet_layers_7_feed_forward_w1: 3 keys
+  lora_unet_layers_7_feed_forward_w2: 3 keys
+  lora_unet_layers_7_feed_forward_w3: 3 keys
+  lora_unet_layers_8_attention_out: 3 keys
+  lora_unet_layers_8_attention_qkv: 3 keys
+  lora_unet_layers_8_feed_forward_w1: 3 keys
+  lora_unet_layers_8_feed_forward_w2: 3 keys
+  lora_unet_layers_8_feed_forward_w3: 3 keys
+  lora_unet_layers_9_attention_out: 3 keys
+  lora_unet_layers_9_attention_qkv: 3 keys
+  lora_unet_layers_9_feed_forward_w1: 3 keys
+  lora_unet_layers_9_feed_forward_w2: 3 keys
+  lora_unet_layers_9_feed_forward_w3: 3 keys
+
+================================================================================
+MERGED LORA ANALYSIS
+================================================================================
+Checking attention weights for merged LoRA patterns...
+
+Analyzing 120 attention weight matrices:
+
+  1. lora_unet_layers_0_attention_out.lora_down.weight:
+     Shape: torch.Size([32, 3840])
+     Full rank: 32, Effective rank: 32
